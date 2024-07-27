@@ -1,0 +1,499 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <section id="topHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left white">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Ramgram-3, Parasi</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="phone">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+977 9876543210</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="fb">
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="insta">
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand ageagea" href="#">
+            <img src="imgs/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse jc-sa" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section id="hero">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="imgs/hotelEdis.jpg"
+                alt="First slide"
+              />
+              <div class="texts">
+                <h2>Welcome to Siddhartha Park Regency</h2>
+                <h4>Hotel, Spa & Restro</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="imgs/room1.jpg"
+                alt="Second slide"
+              />
+              <div class="texts aagea">
+                <h2>Welcome to Siddhartha Park Regency</h2>
+                <h4>Hotel, Spa & Restro</h4>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <i class="fa-solid fa-arrow-left"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="checkAvailability">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="inpts">
+                <h3>Arrival Date</h3>
+                <input type="date" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="inpts">
+                <h3>Departure Date</h3>
+                <input type="date" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="hiahf">
+              <button class="btnAll">Check Availability</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourRooms">
+      <div class="container">
+        <div class="upper tac">
+          <h3>Our Rooms</h3>
+          <h5>
+            When you host a party or family reunion, the special celebrations
+            <br />
+            let you streng then bonds with
+          </h5>
+        </div>
+        <div class="cnct">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="image">
+                  <img src="imgs/room2.jpg" alt="" />
+                </div>
+                <div class="text tac">
+                  <h3>Luxury Room</h3>
+                  <h5>Rs. 2000 / Per Night</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="image">
+                  <img src="imgs/room3.jpg" alt="" />
+                </div>
+                <div class="text tac">
+                  <h3>Double Room</h3>
+                  <h5>Rs. 2000 / Per Night</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="image">
+                  <img src="imgs/room4.jpg" alt="" />
+                </div>
+                <div class="text tac">
+                  <h3>Family Room</h3>
+                  <h5>Rs. 2000 / Per Night</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="viewMore tac my-5">
+          <button class="btnAll">View More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left">
+            <h3>About Us</h3>
+            <h5>
+              Contrary to popular belief, Lorem isn’t simply random text. It has
+              roots in a of classical Latin literature from 45 BC, making it
+              over 2000 years old. Avalon’s leading hotels with gracious island
+              hospitality, thoughtful amenities and distinctive.
+              <br />
+              <br />
+              Richard McClintock, a Latin professor at Hampden-Sydney College in
+              Virginia, looked up one of the more obscure Latin words,
+              consectetur, from a Lorem Ipsum passage ...
+            </h5>
+            <button>Read More</button>
+          </div>
+          <div class="col-md-6 right">
+            <div class="image">
+              <img src="imgs/abt-us.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="container-fluid p-0">
+        <div class="bgImg">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="testimonial-container">
+              <div class="testimonial">
+                <div class="boxCenter">
+                  <div class="cnct tac">
+                    <img src="imgs/man1.jpg" alt="" />
+                    <h4>
+                      ​‌ “This is the only place to stay in Parasi! I have
+                      stayed in the cheaper hotels and they were fine, but this
+                      is just the icing on the cake! After spending the day bike
+                      riding and hiking to come back and enjoy a glass of wine.”
+                    </h4>
+                    <h2>Sambhav Gyawali</h2>
+                    <h3>From Birauta, Pokhara</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <div class="boxCenter">
+                  <div class="cnct tac">
+                    <img src="imgs/man2.jpg" alt="" />
+                    <h4>
+                      ​‌ “This is the only place to stay in Parasi! I have
+                      stayed in the cheaper hotels and they were fine, but this
+                      is just the icing on the cake! After spending the day bike
+                      riding and hiking to come back and enjoy a glass of wine.”
+                    </h4>
+                    <h2>Saugat Kasaudhan</h2>
+                    <h3>From Nayabazar, Kathmandu</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <div class="boxCenter">
+                  <div class="cnct tac">
+                    <img src="imgs/man2.jpg" alt="" />
+                    <h4>
+                      ​‌ ​‌ “This is the only place to stay in Parasi! I have
+                      stayed in the cheaper hotels and they were fine, but this
+                      is just the icing on the cake! After spending the day bike
+                      riding and hiking to come back and enjoy a glass of wine.”
+                    </h4>
+                    <h2>Sushant Aryal</h2>
+                    <h3>From Milan Chowk, Butwal</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottomBar">
+              <button class="nav-button prev" onclick="prevReview()">
+                &#10094;
+              </button>
+              <button class="nav-button next" onclick="nextReview()">
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="upper tac">
+          <h2>Gallery</h2>
+        </div>
+        <div class="cnct">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="imgs/g1.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g2.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g3.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g4.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g5.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g6.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g7.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="imgs/g8.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="viewMore tac my-4">
+          <button class="btnAll">View More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="weOffer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image">
+              <img src="imgs/what-we-offer.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="cnct">
+              <h2>
+                What Activities <br />
+                We Offer
+              </h2>
+              <h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, repellat voluptatem autem atque esse quo corrupti
+                molestiae voluptas provident eligendi, aut officia doloribus
+                saepe fugiat vitae! Maxime sequi cupiditate ab.
+              </h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <i class="fa-solid fa-martini-glass"></i>
+                  <span>Bar</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="fa-solid fa-bed"></i>
+                  <span>Rooms</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>Dining</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="fa-solid fa-drumstick-bite"></i>
+                  <span>Barbeque</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ourAchievements">
+      <div class="container">
+        <div class="upper tac">
+          <h2>Our Achievements</h2>
+          <h5>We are the top leading hotel with 5 years of experience</h5>
+        </div>
+        <div class="cnct tac">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>15k</h2>
+              <h3>Happy Clients</h3>
+            </div>
+            <div class="col-md-4">
+              <h2>25</h2>
+              <h3>Total Rooms</h3>
+            </div>
+            <div class="col-md-4">
+              <h2>20</h2>
+              <h3>Team Members</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="center tac">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>+977 9876543210</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="center tac">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Ramgram-3, Parasi</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="center tac">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>abc@gmail.com</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+      <div class="container-fluid p-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.8081676949746!2d83.66426687546134!3d27.53741827628043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994270543b8d92f%3A0x36c40bfc885354e5!2sHotel%20Siddhartha%20Park%20Regency!5e0!3m2!1sen!2snp!4v1722092164406!5m2!1sen!2snp"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container tac">
+        <h2>© 2024 All Rights Reserved Terms of Use and Privacy Policy</h2>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
