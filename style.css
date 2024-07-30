@@ -536,6 +536,9 @@ body {
 /* Contact Section Css Starts Here */
 #contact {
   height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 2rem 0 0 0;
   padding: 5rem 0;
   background-color: var(--nav-bg);
