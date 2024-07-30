@@ -21,6 +21,7 @@ body {
   --nav-bg: #f2f2f2;
   --font: #232323;
   --g-font: #c4a25a;
+  --green: #008000;
 }
 
 /* Top Header Css Starts Here */
@@ -236,6 +237,10 @@ body {
 #ourRooms .upper h5 {
   font-size: 2rem;
   font-weight: 400;
+}
+
+#OurRooms .cnct a {
+  text-decoration: none;
 }
 
 #OurRooms .cnct .card {
@@ -570,3 +575,183 @@ body {
 }
 
 /* Footer Section Css Ends Here */
+
+/* Rooms And Rate Page Css Starts Here */
+#breadcrumb {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 0 0 2rem 0;
+}
+
+#breadcrumb h2 {
+  font-size: 6rem;
+}
+
+#breadcrumb h5 {
+  font-size: 3rem;
+}
+
+#ourRooms .col-md-4 .card .image {
+  width: 37rem;
+  overflow: hidden;
+}
+/* Rooms And Rate Page Css Ends Here */
+
+/* Rooms Details Page Css Starts Here */
+#roomDetails {
+  height: 55rem;
+  margin: 0 0 3rem 0;
+  /* background-color: red; */
+}
+
+#roomDetails .left .image img {
+  height: 38rem;
+  width: auto;
+}
+
+#roomDetails .right .cnct {
+  margin: 0 4rem;
+}
+
+#roomDetails .right .cnct .upperADesc .title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000;
+}
+
+#roomDetails .right .cnct .upperADesc .aNN {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-weight: 500;
+  color: var(--green);
+  margin: 0 1rem;
+}
+
+#roomDetails .right .cnct .upperADesc h2 {
+  font-size: 2.6rem;
+  color: var(--header-bg);
+  margin: 1rem 0;
+}
+
+#roomDetails .right .cnct .upperADesc h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 1rem 0;
+}
+
+#roomDetails .right .cnct .inpt {
+  margin: 2.6rem 0;
+}
+
+#roomDetails .right .cnct .inpt .arrDep,
+#roomDetails .right .cnct .inpt .mmbr {
+  display: flex;
+  margin: 1rem 0;
+  gap: 2rem;
+}
+
+#roomDetails .right .cnct .inpt .arrDep .agrag,
+#roomDetails .right .cnct .inpt .mmbr .ahuigrera {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  /* width: 100%; */
+}
+
+#roomDetails .right .cnct .inpt .arrDep input {
+  height: 5rem;
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+  margin: 0;
+  color: var(--g-font);
+  background-color: var(--nav-bg);
+  outline: none;
+}
+
+#roomDetails .right .cnct .inpt .mmbr input {
+  height: 5rem;
+  width: 84%;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+  margin: 0;
+  color: var(--g-font);
+  background-color: var(--nav-bg);
+  outline: none;
+}
+
+#roomDetails .right .cnct .inpt .arrDep input::placeholder,
+#roomDetails .right .cnct .inpt .mmbr input::placeholder {
+  color: transparent;
+}
+
+#roomDetails .right .cnct .inpt .arrDep label,
+#roomDetails .right .cnct .inpt .mmbr label {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  padding: 0 0.9rem;
+  background-color: var(--nav-bg);
+  color: var(--g-font);
+  transition: 0.2s;
+  border: none;
+  border-radius: 0.3rem 0.3rem 0 0;
+  pointer-events: none;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#roomDetails .right .cnct .inpt .arrDep input:focus + label,
+#roomDetails .right .cnct .inpt .arrDep input:not(:placeholder-shown) + label {
+  width: 93%;
+  top: -1rem;
+  left: 0.7rem;
+  font-size: 1.2rem;
+  color: var(--g-font);
+}
+
+#roomDetails .right .cnct .inpt .mmbr input:focus + label,
+#roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
+  width: 79%;
+  top: -1rem;
+  left: 0.7rem;
+  font-size: 1.2rem;
+  color: var(--g-font);
+}
+
+#roomDetails .right .cnct .details input {
+  height: 5rem;
+  width: 92%;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  margin: 0.7rem 0 1rem 0;
+  padding: 0.6rem;
+  color: var(--g-font);
+  background-color: var(--nav-bg);
+}
+
+#roomDetails .right .cnct .details input::placeholder,
+#roomDetails .right .cnct .details input:not(:placeholder-shown) {
+  color: var(--g-font);
+}
+
+#roomDetails .right .cnct .button button {
+  height: 4rem;
+  width: 16rem;
+}
+
+/* Rooms Details Page Css Ends Here */

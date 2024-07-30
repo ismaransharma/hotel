@@ -24,4 +24,4 @@ function prevReview() {
 }
 
 // Optional: Auto-slide every 5 seconds
-setInterval(nextReview, 5000);
+// setInterval(nextReview, 5000);

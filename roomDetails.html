@@ -1,0 +1,217 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <section id="topHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left white">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Ramgram-3, Parasi</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="phone">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+977 9876543210</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="fb">
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="insta">
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand ageagea" href="#">
+            <img src="imgs/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse jc-sa" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="rooms&rate.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section id="breadcrumb">
+      <div class="container tac">
+        <h2>Rooms & Rate</h2>
+        <h5>Luxury Room</h5>
+      </div>
+    </section>
+
+    <section id="roomDetails">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left">
+            <div class="image">
+              <img src="imgs/room2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="cnct">
+              <div class="upperADesc">
+                <span class="title">Luxury Room</span>
+                <span class="aNN">Available</span>
+                <h2>Rs. 2000</h2>
+                <h5>We Provide Luxury Room with Luxury Service.</h5>
+              </div>
+              <div class="inpt">
+                <div class="arrDep">
+                  <div class="row">
+                    <div class="col-md-6 agrag">
+                      <input
+                        type="date"
+                        name="arrival"
+                        id="arrivalDate"
+                        placeholder=" "
+                      />
+                      <label for="arrivalDate">Arrival Date</label>
+                    </div>
+                    <div class="col-md-6 agrag l-4">
+                      <input
+                        type="date"
+                        name="departure"
+                        id="departureDate"
+                        placeholder=" "
+                      />
+                      <label for="departureDate">Departure Date</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mmbr">
+                  <div class="row">
+                    <div class="col-md-6 ahuigrera">
+                      <input
+                        type="number"
+                        name="adult"
+                        id="adult"
+                        placeholder=" "
+                        value="2"
+                      />
+                      <label for="adult">Adult</label>
+                    </div>
+                    <div class="col-md-6 ahuigrera">
+                      <input
+                        type="number"
+                        name="children"
+                        id="children"
+                        placeholder=" "
+                        value="2"
+                      />
+                      <label for="children">Children</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="details">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Enter Your Name"
+                    id=""
+                  />
+                  <br />
+                  <input
+                    type="number"
+                    name=""
+                    placeholder="Enter Your Number"
+                    id=""
+                  />
+                </div>
+
+                <div class="button tac my-5">
+                  <button class="btnAll">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container tac">
+        <h2>© 2024 All Rights Reserved Terms of Use and Privacy Policy</h2>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
