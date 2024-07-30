@@ -83,6 +83,14 @@ body {
   background-color: var(--nav-bg);
 }
 
+#navbar .container-fluid {
+  padding: 0;
+}
+
+#navbar .nav {
+  background-color: var(--nav-bg);
+}
+
 #navbar nav a.ageagea img {
   height: 9rem;
   width: 100%;
