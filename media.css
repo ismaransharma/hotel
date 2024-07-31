@@ -1,0 +1,113 @@
+@media (max-width: 600px) {
+  #topHeader {
+    display: none;
+  }
+
+  #navbar {
+    padding: 0;
+  }
+
+  #navbar nav {
+    background-color: var(--nav-bg);
+  }
+
+  #navbar nav button.navbar-toggler {
+    margin: 0 2rem;
+  }
+
+  #hero {
+    height: 40rem;
+  }
+
+  #hero .carousel-inner {
+    height: 35rem;
+  }
+
+  #hero .carousel-inner img {
+    height: 100%;
+  }
+
+  #hero .texts h2 {
+    width: 40rem;
+    font-size: 2rem;
+  }
+
+  #hero .texts h4 {
+    width: 18rem;
+    font-size: 1.8rem;
+  }
+
+  #hero a.carousel-control-prev,
+  #hero a.carousel-control-next {
+    top: 20%;
+  }
+
+  #OurRooms .cnct .card {
+    width: 37rem;
+    margin: 1.4rem auto;
+  }
+
+  #aboutUs .image {
+    display: none;
+  }
+
+  #reviews .boxCenter .cnct h4 {
+    width: 100%;
+    margin: 0;
+  }
+
+  #reviews .boxCenter .cnct h2 {
+    margin: 1.5rem 0 1 0;
+  }
+
+  #gallery {
+    height: auto;
+  }
+
+  #weOffer {
+    height: auto;
+  }
+
+  #weOffer .image {
+    text-align: center;
+  }
+
+  #weOffer .image img {
+    height: auto !important;
+    width: 35rem !important;
+    margin: 0 0 1rem 0;
+  }
+
+  #weOffer .col-md-6 .cnct {
+    text-align: center;
+  }
+
+  #weOffer .cnct .row .col-md-6 {
+    width: 50%;
+  }
+
+  #ourAchievements {
+    height: auto;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  #contact .row .col-md-4 .box {
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #weOffer .col-md-6 .image img {
+    height: 40rem;
+    width: 40rem;
+  }
+}
