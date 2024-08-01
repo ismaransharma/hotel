@@ -120,7 +120,7 @@
   }
 
   #roomDetails .right .cnct .inpt .arrDep input {
-    width: 97%;
+    width: 100%;
   }
 
   #roomDetails .right .cnct .inpt .mmbr input {
@@ -129,7 +129,7 @@
 
   #roomDetails .right .cnct .inpt .mmbr input:focus + label,
   #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-    width: 96%;
+    width: 92.6%;
   }
 
   #roomDetails .right .cnct .details input {
