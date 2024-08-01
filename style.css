@@ -94,7 +94,7 @@ body {
 
 #navbar nav a.ageagea img {
   height: 9rem;
-  width: 100%;
+  width: auto;
 }
 
 #navbar nav ul li {
