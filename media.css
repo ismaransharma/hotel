@@ -57,7 +57,7 @@
   }
 
   #reviews .boxCenter .cnct h2 {
-    margin: 1.5rem 0 1 0;
+    margin: 1rem 0 1 0;
   }
 
   #gallery {
@@ -83,7 +83,7 @@
   }
 
   #weOffer .cnct .row .col-md-6 {
-    width: 50%;
+    width: 31%;
   }
 
   #ourAchievements {
@@ -96,6 +96,43 @@
 
   #contact .row .col-md-4 .box {
     margin: 1rem auto;
+  }
+
+  #breadcrumb h2 {
+    font-size: 5rem;
+  }
+
+  #roomDetails {
+    height: auto;
+  }
+
+  #roomDetails .left .image {
+    text-align: center;
+  }
+
+  #roomDetails .left .image img {
+    height: 24rem;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep .agrag.l-4 {
+    left: 0;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep input {
+    width: 97%;
+  }
+
+  #roomDetails .right .cnct .inpt .mmbr input {
+    width: 100%;
+  }
+
+  #roomDetails .right .cnct .inpt .mmbr input:focus + label,
+  #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
+    width: 96%;
+  }
+
+  #roomDetails .right .cnct .details input {
+    width: 100%;
   }
 }
 
