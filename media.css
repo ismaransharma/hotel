@@ -123,11 +123,6 @@
     width: 100%;
   }
 
-  #roomDetails .right .cnct .inpt .mmbr input:focus + label,
-  #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-    width: 92.6%;
-  }
-
   #roomDetails .right .cnct .details input {
     width: 100%;
   }
@@ -276,22 +271,6 @@
     width: 114%;
   }
 
-  #roomDetails .right .cnct .inpt .arrDep input:focus + label,
-  #roomDetails
-    .right
-    .cnct
-    .inpt
-    .arrDep
-    input:not(:placeholder-shown)
-    + label {
-    width: 110%;
-  }
-
-  #roomDetails .right .cnct .inpt .mmbr input:focus + label,
-  #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-    width: 96.8%;
-  }
-
   #roomDetails .right .cnct .inpt .mmbr input,
   #roomDetails .right .cnct .details input {
     width: 100%;
@@ -388,22 +367,6 @@
   #roomDetails .right .cnct .inpt .arrDep input {
     font-size: 1.5rem;
   }
-
-  #roomDetails .right .cnct .inpt .arrDep input:focus + label,
-  #roomDetails
-    .right
-    .cnct
-    .inpt
-    .arrDep
-    input:not(:placeholder-shown)
-    + label {
-    width: 90%;
-  }
-
-  #roomDetails .right .cnct .inpt .mmbr input:focus + label,
-  #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-    width: 75%;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -423,10 +386,5 @@
 
   #roomDetails .col-md-6.left .image {
     overflow: hidden;
-  }
-
-  #roomDetails .right .cnct .inpt .mmbr input:focus + label,
-  #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-    width: 78%;
   }
 }

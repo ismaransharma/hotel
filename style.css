@@ -732,7 +732,7 @@ body {
 
 #roomDetails .right .cnct .inpt .arrDep input:focus + label,
 #roomDetails .right .cnct .inpt .arrDep input:not(:placeholder-shown) + label {
-  width: 93%;
+  width: auto;
   top: -1rem;
   left: 0.7rem;
   font-size: 1.2rem;
@@ -741,7 +741,7 @@ body {
 
 #roomDetails .right .cnct .inpt .mmbr input:focus + label,
 #roomDetails .right .cnct .inpt .mmbr input:not(:placeholder-shown) + label {
-  width: 79%;
+  width: auto;
   top: -1rem;
   left: 0.7rem;
   font-size: 1.2rem;
