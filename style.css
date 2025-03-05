@@ -215,8 +215,12 @@ body {
 
 #checkAvailability .col-md-4 .box .inpts input {
   font-size: 2rem;
-  color: #858585;
-  border: none;
+  color: var(--g-font);
+  background-color: #f2f2f2;
+  outline: none;
+  border: 0.1em solid var(--g-font);
+  padding: 0.12em;
+  border-radius: 0.4em;
 }
 
 #checkAvailability .col-md-4 .hiahf {
@@ -488,6 +492,7 @@ body {
 #weOffer .col-md-6 .cnct h6 {
   font-size: 1.8rem;
   margin: 0 0 4rem 0;
+  display: inline-flex;
 }
 
 #weOffer .col-md-6 .cnct .row .col-md-6 {

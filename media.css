@@ -74,7 +74,7 @@
 
   #weOffer .image img {
     height: auto !important;
-    width: 35rem !important;
+    width: 100% !important;
     margin: 0 0 1rem 0;
   }
 
