@@ -28,13 +28,11 @@
   }
 
   #hero .texts h2 {
-    width: 40rem;
-    font-size: 2rem;
+    font-size: 6vw;
   }
 
   #hero .texts h4 {
-    width: 18rem;
-    font-size: 1.8rem;
+    font-size: 4vw;
   }
 
   #hero a.carousel-control-prev,
@@ -43,7 +41,6 @@
   }
 
   #OurRooms .cnct .card {
-    width: 37rem;
     margin: 1.4rem auto;
   }
 
